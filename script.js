@@ -8,3 +8,17 @@ $.ajax({
 }).then(function (response) {
     console.log(response);
 });
+
+document.getElementById('search').onclick = function changeContent() {
+
+    document.getElementById('search').innerHTML = "Hello";
+    document.getElementById('search').style = "Color: red";
+ 
+ }
+
+ document.getElementById('clear').onclick = function changeContent() {
+
+    document.getElementById('clear').innerHTML = "Hello";
+    document.getElementById('clear').style = "Color: blue";
+ 
+ }
